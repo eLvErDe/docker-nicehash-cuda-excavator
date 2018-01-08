@@ -1,0 +1,16 @@
+{
+  "id": "/mining/dstm-cuda-zm",
+  "cmd": "/root/dstm-zm --server europe.equihash-hub.miningpoolhub.com --port 20575 --user acecile.mesos --pass x --telemetry=0.0.0.0:$PORT0",
+  "cpus": 0.1,
+  "gpus": 1,
+  "mem": 128,
+  "disk": 5000,
+  "instances": 1,
+  "container": {
+    "type": "MESOS",
+    "docker": {
+      "image": "acecile/dstm-cuda-zm:latest",
+      "forcePullImage": true
+    }
+  }
+}
