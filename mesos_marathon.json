@@ -1,6 +1,6 @@
 {
-  "id": "/mining/dstm-cuda-zm",
-  "cmd": "/root/dstm-zm --server europe.equihash-hub.miningpoolhub.com --port 20575 --user acecile.mesos --pass x --telemetry=0.0.0.0:$PORT0",
+  "id": "/mining/nicehash-cuda-excavator",
+  "cmd": "/opt/excavator/bin/excavator-run",
   "cpus": 0.1,
   "gpus": 1,
   "mem": 128,
@@ -9,7 +9,7 @@
   "container": {
     "type": "MESOS",
     "docker": {
-      "image": "acecile/dstm-cuda-zm:latest",
+      "image": "docker.domain.com/nicehash-cuda-excavator:latest",
       "forcePullImage": true
     }
   }
