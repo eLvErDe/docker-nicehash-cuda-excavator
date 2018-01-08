@@ -9,7 +9,7 @@
   "container": {
     "type": "MESOS",
     "docker": {
-      "image": "docker.domain.com/nicehash-cuda-excavator:latest",
+      "image": "docker.domain.com/mining/nicehash-cuda-excavator:latest",
       "forcePullImage": true
     }
   }
